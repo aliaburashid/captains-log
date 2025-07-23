@@ -1,6 +1,5 @@
 ---
 track: "Backend Fundamentals"
-title: "Week 12 - Day 2"
 type: "lab"
 topics: "CRUD, MVC, REST, INDUCES and JSX: Full Crud "
 prereqs: "HTML & CSS, Mongoose, REST, Node & NPM, Express, JavaScript, Events"
