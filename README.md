@@ -63,7 +63,7 @@ Index, New and Create has been completed for you.
 1. create a `new` route in your `server.js` - be sure to follow the Restful convention
  1. just have it `res.send('new')` as the response for now
 1. make a views directory
-1. install `express-react-views react react-dom`
+1. install `jsx-view-engine`
 1. `touch views/New.jsx`
 1. Create the view, it should contain a form with the following:
   - `form` with `action="/logs"` and `method="POST"`
