@@ -1,0 +1,20 @@
+{
+  "name": "captains-log",
+  "version": "1.0.0",
+  "description": "--- track: \"Backend Fundamentals\" type: \"lab\" topics: \"CRUD, MVC, REST, INDUCES and JSX: Full Crud \" prereqs: \"HTML & CSS, Mongoose, REST, Node & NPM, Express, JavaScript, Events\" ---",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsx-view-engine": "^1.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.16.4"
+  }
+}
