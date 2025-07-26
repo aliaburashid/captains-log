@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+    background-color: #e6ffe6;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;   
+}
+
+/* ---------- HOME---------- */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+    color: darkblue;
+    font-family: "Winky Rough", sans-serif;
+    font-size: 70px;
+}
+
+.view-btn {
+    padding: 10px 70px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0077cc;
+    color: white;
+    cursor: pointer;
+}
+
+.view-btn:hover {
+    background-color: #45a049;
+}
+
+
+
+/* ---------- INDEX ---------- */
+
+h1 {
+  text-align: center;
+  color: #004080;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+button {
+  background-color: rgb(244, 218, 89);
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ---------- FORM STYLES (shared by New and Edit) ---------- */
+.form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background-color: #f0fff4;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #c8e6c9;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.form-title {
+  text-align: center;
+  color: #0a539c;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+  color: #444;
+}
+
+input[type="text"],
+textarea {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  padding: 6px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin-left: 8px;
+  width: auto;
+}
+
+.form-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #ffdd57;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-btn:hover {
+  background-color: #f5c71a;
+}
+
+/* ---------- SHOW ---------- */
+.show-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.show-container h1 {
+  color: #0a539c; 
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.show-container p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: #ffdd57;
+  color: #333;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  background-color: #f5c71a;
+}
+
+
