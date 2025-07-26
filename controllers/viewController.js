@@ -7,7 +7,7 @@ const viewController = {
     res.render('Log/Show', res.locals.data)
   },
   edit(req, res, next){
-    res.render('Log/Edit', res.locals.data)
+    res.render('Log/Edit',  { log: res.locals.data.log })
   },
   newView(req, res, next){
     res.render('Log/New')
